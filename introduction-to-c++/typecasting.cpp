@@ -3,7 +3,7 @@ using namespace std;
 
 /**
  * Often program needs to change the data type from one tho another, which knows as type casting.
- * There are two many way of type casting IMPLICIT  | EXPLICIT
+ * There are two way of type casting IMPLICIT (Type conversion) | EXPLICIT (Type casting)
  * Implicit: type casting means which will handle by the compiler implicitly.
  * 
  * Explicit: On the other hand explicit means, which need to be told by programmer.
