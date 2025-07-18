@@ -1,12 +1,12 @@
-## Data Types:
+## Data Types `Primitive`:
 
-| Data types | descriptions        |
-| ---------- | ------------------- |
-| int        | 4 bytes `(32 bits)` |
-| char       | 4 bytes `(1 bits)`  |
-| float      | 4 bytes             |
-| bool       | 4 bytes             |
-| double     | 4 bytes             |
+| Data types | descriptions                    |
+| ---------- | ------------------------------- |
+| int        | 4 bytes `(32 bits)`             |
+| char       | 1 bytes `(8 bits)`              |
+| float      | 4 bytes `(32 bits)`             |
+| bool       | 1 bytes `(8 bits)`              |
+| double     | 8 (2 x float) bytes `(64 bits)` |
 
 ---
 
@@ -23,14 +23,14 @@
 
 #### 🔢 Binary Numbers
 
-A binary number consists of only 0 and 1.
+- A binary number consists of only 0 and 1.
 
-Each digit (0 or 1) is called a bit.
-1 byte = 8 bits
+* Each digit (0 or 1) is called a bit.
+* 1 byte = 8 bits
 
-int typically uses 4 bytes = 32 bits
+* int typically uses 4 bytes = 32 bits
 
-So declaring int age = 25; reserves 32 bits in memory, regardless of the value assigned.
+* So declaring int age = 25; reserves 32 bits in memory, regardless of the value assigned.
 
 ##### 🧮 How It's Stored
 
