@@ -7,7 +7,7 @@ using namespace std;
  *
  */
 
- int calc_factorial(int N){
+ int factorial(int N){
      int factorial = 1;
      
      if(N < 0){
@@ -23,7 +23,7 @@ using namespace std;
 
  int main(){
 
-     cout << calc_factorial(4) << endl;
+     cout << factorial(4) << endl;
 
      return 0;
  }

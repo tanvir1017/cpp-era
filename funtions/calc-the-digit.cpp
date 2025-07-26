@@ -3,6 +3,7 @@ using namespace std;
 
 int calc_digit(int num){
     int dig_sum = 0;
+    
     while (num > 0){
         int last_dig = num % 10;
         num /= 10;
